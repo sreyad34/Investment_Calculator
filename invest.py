@@ -31,6 +31,7 @@ annual_rate_ = int(input("Annual Rate of Return : "))
 compounded_ = int(input("Times compounded yearly/monthly: "))
 contributions_ = int(input("Additional Contributions: "))
 time_years_ = int(input("Number of years later: "))
+investment_beg(principal_, annual_rate_, compounded_, contributions_, time_years_)
 
 
 def investment_diff(principal, annual_rate, compounded, contributions, periodic_cont, time_years):
