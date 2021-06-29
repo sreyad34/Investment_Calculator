@@ -14,8 +14,8 @@ compounded_ = int(input("Times compounded yearly/monthly: "))
 contributions_ = int(input("Additional Contributions: "))
 time_years_ = int(input("Number of years later: "))
 
-#investment_end(principal_,annual_rate_,compounded_,contributions_,time_years_)
-investment(1400,7,12,100,20)
+investment_end(principal_,annual_rate_,compounded_,contributions_,time_years_)
+#investment(1400,7,12,100,20)
 
 
 def investment_beg(principal, annual_rate, compounded, contributions, time_years):
